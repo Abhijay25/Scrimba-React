@@ -8,3 +8,12 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+const root = createRoot(document.getElementById("root"))
+
+root.render(
+  <main>
+    <img src = "/src/assets/react.svg" width="40px" />
+    <h1>Fun Facts About React</h1>
+  </main>
+)
