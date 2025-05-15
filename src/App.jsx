@@ -15,14 +15,29 @@ function ReactList() {
   )
 }
 
+function Page() {
+  return (
+   <main>
+    <header>
+      <img src = "/src/assets/react.svg" width="40px" alt = "React logo" />
+    </header> 
+    
+    <h1>Fun Facts About React</h1>
+    <ReactList />
+
+    <footer>
+      <p>"© 2025 Abhijay development. All rights reserved."</p>
+    </footer>
+   </main>
+  )
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <img src = "/src/assets/react.svg" width="40px" alt = "React logo" />
-      <h1>Fun Facts About React</h1>
-      <ReactList />
+      <Page />
     </>
   )
 }
