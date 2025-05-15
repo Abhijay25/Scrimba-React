@@ -26,7 +26,7 @@ function Page() {
     <ReactList />
 
     <footer>
-      <p>"© 2025 Abhijay development. All rights reserved."</p>
+      <small>© 2025 Abhijay development. All rights reserved.</small>
     </footer>
    </main>
   )
