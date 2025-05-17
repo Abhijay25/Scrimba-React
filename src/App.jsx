@@ -6,22 +6,14 @@ import ReactList from "./Components/ReactList.jsx"
 import Header from "./Components/Header.jsx"
 import Footer from "./Components/Footer.jsx"
 
-function Page() {
-  return (
-   < >
-    <Header /> 
-    <ReactList />
-    <Footer />
-   </>
-  )
-}
-
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Page />
+      <Header /> 
+      <ReactList />
+      <Footer />
     </>
   )
 }
