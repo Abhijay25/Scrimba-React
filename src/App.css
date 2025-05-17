@@ -48,8 +48,15 @@
 }
 
 .header {
+  height: 50px;
+  background-color: #21222A;
+  padding: 30px 25px;
+}
+
+nav {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 
 .nav-list-item {
@@ -64,5 +71,12 @@
 }
 
 .nav-logo {
-  width: 55px;
+  width: 50px;
+  margin-right: 7px;
+}
+
+nav > span {
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-weight: 700;
 }

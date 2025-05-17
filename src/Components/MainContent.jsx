@@ -1,4 +1,4 @@
-export default function ReactList() {
+export default function MainContent() {
   return (
     < >
       <h1>Fun Facts About React</h1>
